@@ -1,0 +1,4 @@
+{
+  "*.md": ["yarn run lint:md"],
+  "**/*.{js,md,json}": ["prettier --write"]
+}
