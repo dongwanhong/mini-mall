@@ -34,6 +34,24 @@
       "options": {
         "parser": "json"
       }
+    },
+    {
+      "files": "*.wxml",
+      "options": {
+        "parser": "html"
+      }
+    },
+    {
+      "files": "*.wxss",
+      "options": {
+        "parser": "css"
+      }
+    },
+    {
+      "files": "*.wxs",
+      "options": {
+        "parser": "typescript"
+      }
     }
   ]
 }
