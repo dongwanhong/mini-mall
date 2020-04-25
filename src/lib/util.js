@@ -1,4 +1,4 @@
-const formatTime = date => {
+export const formatTime = date => {
   const year = date.getFullYear();
   const month = date.getMonth() + 1;
   const day = date.getDate();
@@ -13,11 +13,6 @@ const formatTime = date => {
   );
 };
 
-const formatNumber = n => {
-  n = n.toString();
-  return n[1] ? n : '0' + n;
-};
+export const noop = () => {};
 
-module.exports = {
-  formatTime: formatTime,
-};
+export const pure = value => value;

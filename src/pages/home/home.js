@@ -1,14 +1,26 @@
 // pages/home/home.js
+
+import { getMultiData } from '../../services/home';
+
 Page({
   /**
    * 页面的初始数据
    */
-  data: {},
+  data: {
+    banners: [],
+    recommends: [],
+  },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function(options) {},
+  onLoad: function() {
+    getMultiData().then(res => {
+      const banners = res.data.data.banner.list;
+      const recommends = res.data.data.recommend.list;
+      console.log(banners, recommends);
+    });
+  },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
