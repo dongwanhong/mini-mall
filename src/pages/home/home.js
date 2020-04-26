@@ -18,7 +18,10 @@ Page({
     getMultiData().then(res => {
       const banners = res.data.data.banner.list;
       const recommends = res.data.data.recommend.list;
-      console.log(banners, recommends);
+      this.setData({
+        banners,
+        recommends,
+      });
     });
   },
 

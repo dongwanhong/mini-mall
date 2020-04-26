@@ -1,0 +1,8 @@
+<!--components/k-swiper.wxml-->
+<swiper circular autoplay interval="3000">
+  <block wx:for="{{list}}" wx:key="index">
+    <swiper-item>
+      <image src="{{item.image}}" mode="widthFix" />
+    </swiper-item>
+  </block>
+</swiper>

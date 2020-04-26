@@ -5,6 +5,9 @@
     "pages/cart/cart",
     "pages/profile/profile"
   ],
+  "usingComponents": {
+    "k-swiper": "/components/k-swiper"
+  },
   "window": {
     "navigationBarBackgroundColor": "#ff5777",
     "navigationBarTextStyle": "white"
