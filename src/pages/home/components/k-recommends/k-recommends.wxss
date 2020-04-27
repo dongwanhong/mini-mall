@@ -1,0 +1,19 @@
+/* pages/home/components/k-recommands.wxss */
+.recommends {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.recommends .recommend-item {
+  width: 24%;
+  text-align: center;
+}
+
+.recommends .recommend-item .image {
+  width: 100%;
+}
+
+.recommends .recommend-item .text {
+  font-size: 28rpx;
+  color: #666;
+}

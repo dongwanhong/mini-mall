@@ -1,2 +1,5 @@
-<!--pages/home/home.wxml-->
+<!-- pages/home/home.wxml -->
 <k-swiper list="{{banners}}" />
+<view class="recommends-wrapper">
+  <k-recommends recommends="{{recommends}}" />
+</view>

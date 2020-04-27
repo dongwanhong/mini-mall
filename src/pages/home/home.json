@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "k-recommends": "./components/k-recommends/k-recommends"
+  },
   "navigationBarTitleText": "购物街"
 }

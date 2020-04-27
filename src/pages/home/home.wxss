@@ -1,1 +1,6 @@
 /* pages/home/home.wxss */
+.recommends-wrapper {
+  margin-top: 16rpx;
+  padding-bottom: 16rpx;
+  border-bottom: 8rpx solid #ddd;
+}

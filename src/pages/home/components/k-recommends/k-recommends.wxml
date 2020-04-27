@@ -1,0 +1,9 @@
+<!-- pages/home/components/k-recommands.wxml -->
+<view class="recommends">
+  <block wx:for="{{recommends}}" wx:key="index">
+    <view class="recommend-item">
+      <image src="{{item.image}}" alt="" class="image" mode="widthFix" />
+      <text class="text">{{item.title}}</text>
+    </view>
+  </block>
+</view>
