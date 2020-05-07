@@ -1,1 +1,4 @@
 /* components/k-swiper.wxss */
+.swiper .image {
+  width: 100%;
+}
